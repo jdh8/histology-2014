@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (C) 2014 Chen-Pang He <jdh8@ms63.hinet.net>
+
+	This file is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This file is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Lato"?>
+<svg version="1.1" xml:lang="zh-Hant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>組織型態學：小鼠腦下垂體型態觀察</title>
+<metadata>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<rdf:Description xmlns="http://purl.org/dc/terms/">
+		<creator>
+			<Person xmlns="http://xmlns.com/foaf/0.1/" rdf:about="http://jdh8.org/">
+				<rdf:value>何震邦</rdf:value>
+				<mbox_sha1sum>9288e00d54e69a37d8c0a598bc377774e9f68b3a</mbox_sha1sum>
+				<weblog rdf:resource="http://jdh8.org/" />
+			</Person>
+		</creator>
+		<subject>石蠟切片</subject>
+		<subject>H&amp;E</subject>
+		<subject>Masson's trichrome</subject>
+		<type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+		<license rdf:resource="https://www.gnu.org/licenses/gpl.html" />
+		<license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
+	</rdf:Description>
+</rdf:RDF>
+</metadata>
+<style type="text/css">
+rect {
+	fill: none;
+	stroke: red;
+}
+text {
+	font-size: 24px;
+	text-anchor: middle;
+}
+.h {
+	font-size: 40px;
+	font-weight: bold;
+}
+#subtitle {
+	font-size: 32px;
+	font-weight: bold;
+}
+</style>
+<rect id="title" width="640" height="480" />
+<circle cx="100" cy="300" r="60" fill="red" />
+<circle cx="400" cy="180" r="50" fill="blue" />
+<a xlink:href="http://my2.tmu.edu.tw/course/16687" xlink:show="new">
+	<text x="320" y="64" class="h">組織型態學</text>
+</a>
+<text x="320" y="128" id="subtitle">小鼠腦下垂體型態觀察</text>
+<a xlink:href="http://www.tmu.edu.tw/" xlink:show="new">
+	<text x="320" y="300">臺北醫學大學</text>
+</a>
+<a xlink:href="http://jdh8.org/" xlink:show="new">
+	<text x="320" y="340">B101100025 何震邦</text>
+</a>
+<text x="320" y="390">指導：周綉珠 老師</text>
+<a xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW" xlink:show="new">
+	<image x="260" y="420" width="120" height="42" xlink:href="image/by-sa.svg" />
+</a>
+<g transform="translate(0 480)">
+	<title>物鏡 4x</title>
+	<rect id="Obj-4x" width="640" height="480" />
+	<text class="h" x="320" y="100">物鏡 4x</text>
+	<image xlink:href="image/HE-4x.jpg"  id="HE-4x"  width="256" height="192" transform="translate( 43 200)" />
+	<image xlink:href="image/Tri-4x.jpg" id="Tri-4x" width="256" height="192" transform="translate(341 200)" />
+</g>
+
+<!--g transform="translate(0 590)">
+	<rect id="HE-10x" width="256" height="192" />
+	<image xlink:href="image/HE-10x.jpg" width="256" height="192" />
+</g>
+<g transform="translate(310 590)">
+	<rect id="Tri-10x" width="256" height="192" />
+	<image xlink:href="image/Tri-10x-1.jpg" width="256" height="192" />
+</g>
+
+<g transform="translate(0 830)">
+	<rect id="HE-20x" width="256" height="192" />
+	<image xlink:href="image/HE-20x-2.jpg" width="256" height="192" />
+</g>
+<g transform="translate(310 830)">
+	<rect id="Tri-20x" width="256" height="192" />
+	<image xlink:href="image/Tri-20x-2.jpg" width="256" height="192" />
+</g>
+
+<g transform="translate(640 350)">
+	<rect id="HE-40x-1" width="256" height="192" />
+	<image xlink:href="image/HE-40x-1.jpg" width="256" height="192" />
+</g>
+<g transform="translate(950 350)">
+	<rect id="Tri-40x-1" width="256" height="192" />
+	<image xlink:href="image/Tri-40x-1.jpg" width="256" height="192" />
+</g-->
+</svg>
