@@ -16,7 +16,9 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Lato"?>
-<svg version="1.1" xml:lang="zh-Hant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" viewBox="0 0 1280 960" xml:lang="zh-Hant"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>組織型態學：小鼠腦下垂體型態觀察</title>
 <metadata>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -40,70 +42,137 @@
 <style type="text/css">
 rect {
 	fill: none;
-	stroke: red;
 }
 text {
+	fill: #2b2b2b;
 	font-size: 24px;
 	text-anchor: middle;
 }
+
+a,
+#ruler {
+	fill: #24890d;
+	text-decoration: underline;
+}
+a:active,
+a:hover,
+#ruler:hover {
+	fill: #41a62a;
+	text-decoration: none;
+}
+a > image {
+	opacity: .8;
+}
+a:active > image,
+a:hover  > image {
+	opacity: 1;
+}
+
 .h {
 	font-size: 40px;
 	font-weight: bold;
+}
+.li {
+	text-anchor: start;
 }
 #subtitle {
 	font-size: 32px;
 	font-weight: bold;
 }
+
+.red {
+	fill: #f66;
+}
+.red:hover {
+	fill: #f33;
+}
+.blue {
+	fill: #66f;
+}
+.blue:hover {
+	fill: #33f;
+}
 </style>
+<defs>
+	<symbol id="rulers">
+		<rect id="ruler" width="29.7" height="5.94" x="49" y="380" />
+		<use xlink:href="#ruler" x="298" />
+	</symbol>
+</defs>
 <rect id="title" width="640" height="480" />
-<circle cx="100" cy="300" r="60" fill="red" />
-<circle cx="400" cy="180" r="50" fill="blue" />
-<a xlink:href="http://my2.tmu.edu.tw/course/16687" xlink:show="new">
-	<text x="320" y="64" class="h">組織型態學</text>
-</a>
+<circle cx="100" cy="300" r="60" class="red" />
+<circle cx="500" cy="180" r="50" class="blue" />
+<text x="320" y="64" class="h">
+	<a xlink:href="http://my2.tmu.edu.tw/course/16687" xlink:show="new">
+		組織型態學
+	</a>
+</text>
 <text x="320" y="128" id="subtitle">小鼠腦下垂體型態觀察</text>
-<a xlink:href="http://www.tmu.edu.tw/" xlink:show="new">
-	<text x="320" y="300">臺北醫學大學</text>
-</a>
-<a xlink:href="http://jdh8.org/" xlink:show="new">
-	<text x="320" y="340">B101100025 何震邦</text>
-</a>
+<text x="320" y="300">
+	<a xlink:href="http://www.tmu.edu.tw/" xlink:show="new">
+		臺北醫學大學
+	</a>
+</text>
+<text x="320" y="340">
+	<a xlink:href="http://jdh8.org/" xlink:show="new">
+		B101100025 何震邦
+	</a>
+</text>
 <text x="320" y="390">指導：周綉珠 老師</text>
 <a xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW" xlink:show="new">
 	<image x="260" y="420" width="120" height="42" xlink:href="image/by-sa.svg" />
 </a>
+
+<rect width="640" height="480" x="640" />
+<text x="960" y="64" class="h">摘要</text>
+<text class="li" x="680" y="120"><a xlink:href="hist.pdf" xlink:show="new">書面報告</a>中猜測該組織為骨骼肌</text>
+<text class="li" x="700" y="160">老師表示：</text>
+<polygon class="red" points="960,220 900,160 880,180 940,240 880,300 900,320 960,260 1020,320 1040,300 980,240 1040,180 1020,160" />
+<text class="li" x="680" y="400">
+	新猜測：腦下垂體
+	[<a xlink:href="http://histology.med.umich.edu/node/334" xlink:show="new">來源</a>]
+</text>
+
 <g transform="translate(0 480)">
 	<title>物鏡 4x</title>
 	<rect id="Obj-4x" width="640" height="480" />
 	<text class="h" x="320" y="100">物鏡 4x</text>
-	<image xlink:href="image/HE-4x.jpg"  id="HE-4x"  width="256" height="192" transform="translate( 43 200)" />
-	<image xlink:href="image/Tri-4x.jpg" id="Tri-4x" width="256" height="192" transform="translate(341 200)" />
+	<text class="li" x="40" y="150">尺規長 25 μm，寬 5 μm。</text>
+	<image xlink:href="image/HE-4x.jpg"  id="HE-4x"  width="256" height="192" x="43"  y="200" />
+	<image xlink:href="image/Tri-4x.jpg" id="Tri-4x" width="256" height="192" x="341" y="200" />
+	<use xlink:href="#rulers" />
 </g>
-
-<!--g transform="translate(0 590)">
-	<rect id="HE-10x" width="256" height="192" />
-	<image xlink:href="image/HE-10x.jpg" width="256" height="192" />
+<g transform="matrix(0.4 0 0 0.4 640 480)">
+	<title>物鏡 10x</title>
+	<rect id="Obj-10x" width="640" height="480" />
+	<text class="h" x="320" y="100">物鏡 10x</text>
+	<text class="li" x="40" y="150">尺規長 10 μm，寬 2 μm。</text>
+	<image xlink:href="image/HE-10x.jpg"    id="HE-10x"  width="256" height="192" x="43"  y="200" />
+	<image xlink:href="image/Tri-10x-1.jpg" id="Tri-10x" width="256" height="192" x="341" y="200" />
+	<use xlink:href="#rulers" />
 </g>
-<g transform="translate(310 590)">
-	<rect id="Tri-10x" width="256" height="192" />
-	<image xlink:href="image/Tri-10x-1.jpg" width="256" height="192" />
+<g transform="matrix(0.2 0 0 0.2 896 480)">
+	<title>物鏡 20x</title>
+	<rect id="Obj-20x" width="640" height="480" />
+	<text class="h" x="320" y="100">物鏡 20x</text>
+	<text class="li" x="40" y="150">尺規長 5 μm，寬 1 μm。</text>
+	<image xlink:href="image/HE-20x-2.jpg"  id="HE-20x"  width="256" height="192" x="43"  y="200" />
+	<image xlink:href="image/Tri-20x-2.jpg" id="Tri-20x" width="256" height="192" x="341" y="200" />
+	<use xlink:href="#rulers" />
 </g>
-
-<g transform="translate(0 830)">
-	<rect id="HE-20x" width="256" height="192" />
-	<image xlink:href="image/HE-20x-2.jpg" width="256" height="192" />
+<g transform="matrix(0.1 0 0 0.1 1024 480)">
+	<title>物鏡 40x</title>
+	<rect id="Obj-40x" width="640" height="480" />
+	<text class="h" x="320" y="100">物鏡 40x</text>
+	<text class="li" x="40" y="150">尺規長 2.5 μm，寬 0.5 μm。</text>
+	<image xlink:href="image/HE-40x-1.jpg"  id="HE-40x-1"  width="256" height="192" x="43"  y="200" />
+	<image xlink:href="image/Tri-40x-1.jpg" id="Tri-40x-1" width="256" height="192" x="341" y="200" />
+	<image xlink:href="image/HE-40x-2.jpg"  id="HE-40x-2"  width="256" height="192" x="43"  y="440" />
+	<image xlink:href="image/Tri-40x-2.jpg" id="Tri-40x-2" width="256" height="192" x="341" y="440" />
+	<image xlink:href="image/HE-40x-3.jpg"  id="HE-40x-3"  width="256" height="192" x="43"  y="680" />
+	<image xlink:href="image/Tri-40x-3.jpg" id="Tri-40x-3" width="256" height="192" x="341" y="680" />
+	<use xlink:href="#rulers" />
+	<use xlink:href="#rulers" y="240" />
+	<use xlink:href="#rulers" y="480" />
 </g>
-<g transform="translate(310 830)">
-	<rect id="Tri-20x" width="256" height="192" />
-	<image xlink:href="image/Tri-20x-2.jpg" width="256" height="192" />
-</g>
-
-<g transform="translate(640 350)">
-	<rect id="HE-40x-1" width="256" height="192" />
-	<image xlink:href="image/HE-40x-1.jpg" width="256" height="192" />
-</g>
-<g transform="translate(950 350)">
-	<rect id="Tri-40x-1" width="256" height="192" />
-	<image xlink:href="image/Tri-40x-1.jpg" width="256" height="192" />
-</g-->
 </svg>
