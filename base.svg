@@ -99,40 +99,61 @@ a:hover  > image {
 		<use xlink:href="#ruler" x="298" />
 	</symbol>
 </defs>
-<rect id="title" width="640" height="480" />
-<circle cx="100" cy="300" r="60" class="red" />
-<circle cx="500" cy="180" r="50" class="blue" />
-<text x="320" y="64" class="h">
-	<a xlink:href="http://my2.tmu.edu.tw/course/16687" xlink:show="new">
-		組織型態學
+<rect id="panorama" width="1280" height="960" />
+<g>
+	<rect id="title" width="640" height="480" />
+	<circle cx="100" cy="300" r="60" class="red" />
+	<circle cx="500" cy="180" r="50" class="blue" />
+	<text x="320" y="64" class="h">
+		<a xlink:href="http://my2.tmu.edu.tw/course/16687" xlink:show="new">
+			組織型態學
+		</a>
+	</text>
+	<text x="320" y="128" id="subtitle">小鼠腦下垂體型態觀察</text>
+	<text x="320" y="300">
+		<a xlink:href="http://www.tmu.edu.tw/" xlink:show="new">
+			臺北醫學大學
+		</a>
+	</text>
+	<text x="320" y="340">
+		<a xlink:href="http://jdh8.org/" xlink:show="new">
+			B101100025 何震邦
+		</a>
+	</text>
+	<text x="320" y="390">指導：周綉珠 老師</text>
+	<a xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW" xlink:show="new">
+		<image x="260" y="420" width="120" height="42" xlink:href="image/by-sa.svg" />
 	</a>
-</text>
-<text x="320" y="128" id="subtitle">小鼠腦下垂體型態觀察</text>
-<text x="320" y="300">
-	<a xlink:href="http://www.tmu.edu.tw/" xlink:show="new">
-		臺北醫學大學
-	</a>
-</text>
-<text x="320" y="340">
-	<a xlink:href="http://jdh8.org/" xlink:show="new">
-		B101100025 何震邦
-	</a>
-</text>
-<text x="320" y="390">指導：周綉珠 老師</text>
-<a xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW" xlink:show="new">
-	<image x="260" y="420" width="120" height="42" xlink:href="image/by-sa.svg" />
-</a>
-
-<rect width="640" height="480" x="640" />
-<text x="960" y="64" class="h">摘要</text>
-<text class="li" x="680" y="120"><a xlink:href="hist.pdf" xlink:show="new">書面報告</a>中猜測該組織為骨骼肌</text>
-<text class="li" x="700" y="160">老師表示：</text>
-<polygon class="red" points="960,220 900,160 880,180 940,240 880,300 900,320 960,260 1020,320 1040,300 980,240 1040,180 1020,160" />
-<text class="li" x="680" y="400">
-	新猜測：腦下垂體
-	[<a xlink:href="http://histology.med.umich.edu/node/334" xlink:show="new">來源</a>]
-</text>
-
+</g>
+<g transform="matrix(0.5 0 0 0.5 640 0)">
+	<rect id="summary" width="640" height="480" />
+	<text x="320" y="64" class="h">摘要</text>
+	<text class="li" x="40" y="120"><a xlink:href="hist.pdf" xlink:show="new">書面報告</a>中猜測該組織為骨骼肌</text>
+	<text class="li" x="60" y="160">老師表示：</text>
+	<polygon class="red" points="320,220 260,160 240,180 300,240 240,300 260,320 320,260 380,320 400,300 340,240 400,180 380,160" />
+	<text class="li" x="40" y="400">
+		新猜測：腦下垂體
+		[<a xlink:href="http://histology.med.umich.edu/node/334" xlink:show="new">來源</a>]
+	</text>
+</g>
+<g transform="matrix(0.5 0 0 0.5 960 0)">
+	<rect id="section" width="640" height="480" />
+	<text x="320" y="64" class="h">老生常談</text>
+	<text class="li" x="40" y="120">固定：避免組織降解</text>
+	<text class="li" x="40" y="160">處理：把水取代成基質</text>
+	<text class="li" x="40" y="200">包埋：用硬的基質包住樣本</text>
+	<text class="li" x="40" y="240">切片：有點薄又不會太薄</text>
+	<text class="li" x="40" y="280">染色：使不同組織產生對比</text>
+</g>
+<g transform="matrix(0.5 0 0 0.5 960 240)">
+	<rect id="paraffin" width="640" height="480" />
+	<text x="320" y="64" class="h">石蠟切片</text>
+	<text class="li" x="40" y="120">固定：10% neutral buffered formalin</text>
+	<text class="li" x="40" y="160">處理：水→酒精→二甲苯→石蠟</text>
+	<text class="li" x="40" y="200">包埋：石蠟</text>
+	<text class="li" x="40" y="240">切片：約 5 μm 厚</text>
+	<text class="li" x="40" y="280">染色：H&amp;E, Masson's trichrome</text>
+</g>
 <g transform="translate(0 480)">
 	<title>物鏡 4x</title>
 	<rect id="Obj-4x" width="640" height="480" />
@@ -162,7 +183,8 @@ a:hover  > image {
 </g>
 <g transform="matrix(0.1 0 0 0.1 1024 480)">
 	<title>物鏡 40x</title>
-	<rect id="Obj-40x" width="640" height="480" />
+	<rect id="Obj-40x-1" width="640" height="480" />
+	<rect id="Obj-40x-2" width="640" height="480" y="420" />
 	<text class="h" x="320" y="100">物鏡 40x</text>
 	<text class="li" x="40" y="150">尺規長 2.5 μm，寬 0.5 μm。</text>
 	<image xlink:href="image/HE-40x-1.jpg"  id="HE-40x-1"  width="256" height="192" x="43"  y="200" />
