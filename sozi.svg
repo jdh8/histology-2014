@@ -35,7 +35,7 @@
    inkscape:version="0.48.4 r9939"
    width="100%"
    height="100%"
-   sodipodi:docname="base.svg">
+   sodipodi:docname="sozi.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -50,8 +50,8 @@
      id="namedview151"
      showgrid="false"
      inkscape:zoom="0.24583333"
-     inkscape:cx="640"
-     inkscape:cy="480"
+     inkscape:cx="639.99999"
+     inkscape:cy="479.99999"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -91,8 +91,8 @@
     </rdf:RDF>
   </metadata>
   <style
-     id="style8"
-     type="text/css">
+     type="text/css"
+     id="style8">
 rect {
 	fill: none;
 }
@@ -151,85 +151,85 @@ a:hover  &gt; image {
     <symbol
        id="rulers">
       <rect
-         y="380"
-         x="49"
-         height="5.94"
+         id="ruler"
          width="29.7"
-         id="ruler" />
+         height="5.94"
+         x="49"
+         y="380" />
       <use
-         id="use14"
+         xlink:href="#ruler"
          x="298"
-         xlink:href="#ruler" />
+         id="use14" />
     </symbol>
   </defs>
   <rect
-     height="960"
+     id="panorama"
      width="1280"
-     id="panorama" />
+     height="960" />
   <g
      id="g17">
     <rect
-       height="480"
+       id="title"
        width="640"
-       id="title" />
+       height="480" />
     <circle
-       id="circle20"
-       class="red"
-       r="60"
+       cx="100"
        cy="300"
-       cx="100" />
+       r="60"
+       class="red"
+       id="circle20" />
     <circle
-       id="circle22"
-       class="blue"
-       r="50"
+       cx="500"
        cy="180"
-       cx="500" />
+       r="50"
+       class="blue"
+       id="circle22" />
     <text
-       id="text24"
-       class="h"
+       x="320"
        y="64"
-       x="320">
+       class="h"
+       id="text24">
       <a
-         id="a26"
+         xlink:href="http://my2.tmu.edu.tw/course/16687"
          xlink:show="new"
-         xlink:href="http://my2.tmu.edu.tw/course/16687">
+         id="a26">
 			組織型態學
 		</a>
     </text>
     <text
-       id="subtitle"
+       x="320"
        y="128"
-       x="320">小鼠腦下垂體型態觀察</text>
+       id="subtitle">小鼠腦下垂體型態觀察</text>
     <text
-       id="text29"
+       x="320"
        y="300"
-       x="320">
+       id="text29">
       <a
-         id="a31"
+         xlink:href="http://www.tmu.edu.tw/"
          xlink:show="new"
-         xlink:href="http://www.tmu.edu.tw/">
+         id="a31">
 			臺北醫學大學
 		</a>
     </text>
     <text
-       id="text33"
+       x="320"
        y="340"
-       x="320">
+       id="text33">
       <a
-         id="a35"
+         xlink:href="http://jdh8.org/"
          xlink:show="new"
-         xlink:href="http://jdh8.org/">
+         id="a35">
 			B101100025 何震邦
 		</a>
     </text>
     <text
-       id="text37"
+       x="320"
        y="390"
-       x="320">指導：周綉珠 老師</text>
+       id="text37">指導：周綉珠 老師</text>
     <a
-       id="a39"
+       xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW"
        xlink:show="new"
-       xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW">
+       id="a39">
       <image
          x="260"
          y="420"
@@ -240,145 +240,157 @@ a:hover  &gt; image {
     </a>
   </g>
   <g
-     id="g43"
-     transform="matrix(0.5 0 0 0.5 640 0)">
+     transform="matrix(0.5 0 0 0.5 640 0)"
+     id="g43">
     <rect
-       height="480"
+       id="summary"
        width="640"
-       id="summary" />
+       height="480" />
     <text
-       id="text46"
-       class="h"
+       x="320"
        y="64"
-       x="320">摘要</text>
+       class="h"
+       id="text46">摘要</text>
     <text
-       id="text48"
-       y="120"
+       class="li"
        x="40"
-       class="li"><a
+       y="120"
+       id="text48"><a
    xlink:show="new"
    id="a50"
    xlink:href="hist.pdf">書面報告</a>
 
+
+
+
+
+
+
 中猜測該組織為骨骼肌</text>
     <text
-       id="text52"
-       y="160"
+       class="li"
        x="60"
-       class="li">老師表示：</text>
+       y="160"
+       id="text52">老師表示：</text>
     <polygon
-       id="polygon54"
+       class="red"
        points="320,220 260,160 240,180 300,240 240,300 260,320 320,260 380,320 400,300 340,240 400,180 380,160"
-       class="red" />
+       id="polygon54" />
     <text
-       id="text56"
-       y="400"
+       class="li"
        x="40"
-       class="li">
+       y="400"
+       id="text56">
 		新猜測：腦下垂體
 		[<a
-   id="a58"
+   xlink:href="http://histology.med.umich.edu/node/334"
    xlink:show="new"
-   xlink:href="http://histology.med.umich.edu/node/334">來源</a>
+   id="a58">來源</a>
+
+
+
+
+
+
 
 ]
 	</text>
   </g>
   <g
-     id="g60"
-     transform="matrix(0.5 0 0 0.5 960 0)">
+     transform="matrix(0.5 0 0 0.5 960 0)"
+     id="g60">
     <rect
-       height="480"
+       id="section"
        width="640"
-       id="section" />
+       height="480" />
     <text
-       id="text63"
-       class="h"
+       x="320"
        y="64"
-       x="320">老生常談</text>
+       class="h"
+       id="text63">老生常談</text>
     <text
-       id="text65"
+       class="li"
+       x="40"
        y="120"
-       x="40"
-       class="li">固定：避免組織降解</text>
+       id="text65">固定：避免組織降解</text>
     <text
-       id="text67"
+       class="li"
+       x="40"
        y="160"
-       x="40"
-       class="li">處理：把水取代成基質</text>
+       id="text67">處理：把水取代成基質</text>
     <text
-       id="text69"
+       class="li"
+       x="40"
        y="200"
-       x="40"
-       class="li">包埋：用硬的基質包住樣本</text>
+       id="text69">包埋：用硬的基質包住樣本</text>
     <text
-       id="text71"
+       class="li"
+       x="40"
        y="240"
-       x="40"
-       class="li">切片：有點薄又不會太薄</text>
+       id="text71">切片：有點薄又不會太薄</text>
     <text
-       id="text73"
-       y="280"
+       class="li"
        x="40"
-       class="li">染色：使不同組織產生對比</text>
+       y="280"
+       id="text73">染色：使不同組織產生對比</text>
   </g>
   <g
-     id="g75"
-     transform="matrix(0.5 0 0 0.5 960 240)">
+     transform="matrix(0.5 0 0 0.5 960 240)"
+     id="g75">
     <rect
-       height="480"
+       id="paraffin"
        width="640"
-       id="paraffin" />
+       height="480" />
     <text
-       id="text78"
-       class="h"
+       x="320"
        y="64"
-       x="320">石蠟切片</text>
+       class="h"
+       id="text78">石蠟切片</text>
     <text
-       id="text80"
+       class="li"
+       x="40"
        y="120"
-       x="40"
-       class="li">固定：10% neutral buffered formalin</text>
+       id="text80">固定：10% neutral buffered formalin</text>
     <text
-       id="text82"
+       class="li"
+       x="40"
        y="160"
-       x="40"
-       class="li">處理：水→酒精→二甲苯→石蠟</text>
+       id="text82">處理：水→酒精→二甲苯→石蠟</text>
     <text
-       id="text84"
+       class="li"
+       x="40"
        y="200"
-       x="40"
-       class="li">包埋：石蠟</text>
+       id="text84">包埋：石蠟</text>
     <text
-       id="text86"
+       class="li"
+       x="40"
        y="240"
-       x="40"
-       class="li">切片：約 5 μm 厚</text>
+       id="text86">切片：約 5 μm 厚</text>
     <text
-       id="text88"
-       y="280"
+       class="li"
        x="40"
-       class="li">染色：H&amp;E, Masson's trichrome</text>
+       y="280"
+       id="text88">染色：H&amp;E, Masson's trichrome</text>
   </g>
   <g
-     id="g90"
-     transform="translate(0 480)">
+     transform="translate(0 480)"
+     id="g90">
     <title
        id="title92">物鏡 4x</title>
     <rect
-       height="480"
+       id="Obj-4x"
        width="640"
-       id="Obj-4x" />
+       height="480" />
     <text
-       id="text95"
-       y="100"
+       class="h"
        x="320"
-       class="h">物鏡 4x</text>
+       y="100"
+       id="text95">物鏡 4x</text>
     <text
-       id="text97"
-       y="150"
+       class="li"
        x="40"
-       class="li">尺規長 25 μm，寬 5 μm。</text>
+       y="150"
+       id="text97">尺規長 25 μm，寬 5 μm。</text>
     <image
        id="HE-4x"
        width="256"
@@ -394,28 +406,28 @@ a:hover  &gt; image {
        y="200"
        xlink:href="image/Tri-4x.jpg" />
     <use
-       id="use101"
-       xlink:href="#rulers" />
+       xlink:href="#rulers"
+       id="use101" />
   </g>
   <g
-     id="g103"
-     transform="matrix(0.4 0 0 0.4 640 480)">
+     transform="matrix(0.4 0 0 0.4 640 480)"
+     id="g103">
     <title
        id="title105">物鏡 10x</title>
     <rect
-       height="480"
+       id="Obj-10x"
        width="640"
-       id="Obj-10x" />
+       height="480" />
     <text
-       id="text108"
-       y="100"
+       class="h"
        x="320"
-       class="h">物鏡 10x</text>
+       y="100"
+       id="text108">物鏡 10x</text>
     <text
-       id="text110"
-       y="150"
+       class="li"
        x="40"
-       class="li">尺規長 10 μm，寬 2 μm。</text>
+       y="150"
+       id="text110">尺規長 10 μm，寬 2 μm。</text>
     <image
        id="HE-10x"
        width="256"
@@ -431,28 +443,28 @@ a:hover  &gt; image {
        y="200"
        xlink:href="image/Tri-10x-1.jpg" />
     <use
-       id="use114"
-       xlink:href="#rulers" />
+       xlink:href="#rulers"
+       id="use114" />
   </g>
   <g
-     id="g116"
-     transform="matrix(0.2 0 0 0.2 896 480)">
+     transform="matrix(0.2 0 0 0.2 896 480)"
+     id="g116">
     <title
        id="title118">物鏡 20x</title>
     <rect
-       height="480"
+       id="Obj-20x"
        width="640"
-       id="Obj-20x" />
+       height="480" />
     <text
-       id="text121"
-       y="100"
+       class="h"
        x="320"
-       class="h">物鏡 20x</text>
+       y="100"
+       id="text121">物鏡 20x</text>
     <text
-       id="text123"
-       y="150"
+       class="li"
        x="40"
-       class="li">尺規長 5 μm，寬 1 μm。</text>
+       y="150"
+       id="text123">尺規長 5 μm，寬 1 μm。</text>
     <image
        id="HE-20x"
        width="256"
@@ -468,33 +480,33 @@ a:hover  &gt; image {
        y="200"
        xlink:href="image/Tri-20x-2.jpg" />
     <use
-       id="use127"
-       xlink:href="#rulers" />
+       xlink:href="#rulers"
+       id="use127" />
   </g>
   <g
-     id="g129"
-     transform="matrix(0.1 0 0 0.1 1024 480)">
+     transform="matrix(0.1 0 0 0.1 1024 480)"
+     id="g129">
     <title
        id="title131">物鏡 40x</title>
     <rect
-       height="480"
+       id="Obj-40x-1"
        width="640"
-       id="Obj-40x-1" />
+       height="480" />
     <rect
-       y="420"
-       height="480"
+       id="Obj-40x-2"
        width="640"
-       id="Obj-40x-2" />
+       height="480"
+       y="420" />
     <text
-       id="text135"
-       y="100"
+       class="h"
        x="320"
-       class="h">物鏡 40x</text>
+       y="100"
+       id="text135">物鏡 40x</text>
     <text
-       id="text137"
-       y="150"
+       class="li"
        x="40"
-       class="li">尺規長 2.5 μm，寬 0.5 μm。</text>
+       y="150"
+       id="text137">尺規長 2.5 μm，寬 0.5 μm。</text>
     <image
        id="HE-40x-1"
        width="256"
@@ -538,20 +550,20 @@ a:hover  &gt; image {
        y="680"
        xlink:href="image/Tri-40x-3.jpg" />
     <use
-       id="use145"
-       xlink:href="#rulers" />
+       xlink:href="#rulers"
+       id="use145" />
     <use
-       id="use147"
+       xlink:href="#rulers"
        y="240"
-       xlink:href="#rulers" />
+       id="use147" />
     <use
-       id="use149"
+       xlink:href="#rulers"
        y="480"
-       xlink:href="#rulers" />
+       id="use149" />
   </g>
   <script
-     ns1:version="13.11-30213629"
-     id="sozi-script">/*
+     id="sozi-script"
+     ns1:version="13.11-30213629">/*
  * Sozi - A presentation tool using the SVG standard
  *
  * Copyright (C) 2010-2013 Guillaume Savaton
@@ -3250,8 +3262,8 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
 */
 </script>
   <style
-     ns1:version="13.11-30213629"
-     id="sozi-style">/*
+     id="sozi-style"
+     ns1:version="13.11-30213629">/*
  * Sozi - A presentation tool using the SVG standard
  *
  * Copyright (C) 2010-2013 Guillaume Savaton
@@ -3312,143 +3324,311 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
 }
 </style>
   <ns1:frame
-     id="frame1362"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
-     ns1:hide="false"
-     ns1:sequence="1"
+     ns1:refid="title"
      ns1:title="Title"
-     ns1:refid="title" />
-  <ns1:frame
-     id="frame1446"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
+     ns1:sequence="1"
      ns1:hide="false"
-     ns1:sequence="9"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1362" />
+  <ns1:frame
+     ns1:refid="Obj-40x-2"
      ns1:title="Obj-40x-2"
-     ns1:refid="Obj-40x-2" />
-  <ns1:frame
-     id="frame1411"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
+     ns1:sequence="15"
      ns1:hide="false"
-     ns1:sequence="5"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1446" />
+  <ns1:frame
+     ns1:refid="Obj-4x"
      ns1:title="Obj-4x"
-     ns1:refid="Obj-4x" />
-  <ns1:frame
-     id="frame1387"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
+     ns1:sequence="5"
      ns1:hide="false"
-     ns1:sequence="3"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1411" />
+  <ns1:frame
+     ns1:refid="section"
      ns1:title="Section"
-     ns1:refid="section" />
-  <ns1:frame
-     id="frame1377"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
+     ns1:sequence="3"
      ns1:hide="false"
-     ns1:sequence="2"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1387" />
+  <ns1:frame
+     ns1:refid="summary"
      ns1:title="Summary"
-     ns1:refid="summary" />
-  <ns1:frame
-     id="frame1430"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
+     ns1:sequence="2"
      ns1:hide="false"
-     ns1:sequence="7"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1377" />
+  <ns1:frame
+     ns1:refid="Obj-20x"
      ns1:title="Obj-20x"
-     ns1:refid="Obj-20x" />
-  <ns1:frame
-     id="frame1423"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="false"
+     ns1:sequence="11"
      ns1:hide="false"
-     ns1:sequence="6"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1430" />
+  <ns1:frame
+     ns1:refid="Obj-10x"
      ns1:title="Obj-10x"
-     ns1:refid="Obj-10x" />
+     ns1:sequence="8"
+     ns1:hide="false"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1423" />
   <ns1:frame
-     id="frame1437"
+     ns1:refid="Obj-40x-1"
+     ns1:title="Obj-40x-1"
+     ns1:sequence="14"
+     ns1:hide="false"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1437" />
+  <ns1:frame
+     ns1:refid="panorama"
+     ns1:title="Panorama"
+     ns1:sequence="22"
+     ns1:hide="false"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1453" />
+  <ns1:frame
+     ns1:refid="paraffin"
+     ns1:title="Paraffin"
+     ns1:sequence="4"
+     ns1:hide="false"
+     ns1:clip="false"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="frame1395" />
+  <ns1:frame
+     id="frame2633"
      ns1:transition-path-hide="true"
      ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
      ns1:timeout-enable="false"
      ns1:show-in-frame-list="true"
      ns1:clip="false"
      ns1:hide="false"
-     ns1:sequence="8"
-     ns1:title="Obj-40x-1"
-     ns1:refid="Obj-40x-1" />
+     ns1:sequence="20"
+     ns1:title="Tri-40x-2"
+     ns1:refid="Tri-40x-2" />
   <ns1:frame
-     id="frame1453"
+     id="frame2517"
      ns1:transition-path-hide="true"
      ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="12"
+     ns1:title="HE-20x"
+     ns1:refid="HE-20x" />
+  <ns1:frame
+     id="frame2634"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="21"
+     ns1:title="Tri-40x-3"
+     ns1:refid="Tri-40x-3" />
+  <ns1:frame
+     id="frame2603"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="17"
+     ns1:title="HE-40x-2"
+     ns1:refid="HE-40x-2" />
+  <ns1:frame
+     id="frame2606"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="18"
+     ns1:title="HE-40x-3"
+     ns1:refid="HE-40x-3" />
+  <ns1:frame
+     id="frame2471"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
      ns1:timeout-enable="false"
      ns1:show-in-frame-list="true"
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="10"
-     ns1:title="Panorama"
-     ns1:refid="panorama" />
+     ns1:title="Tri-10x"
+     ns1:refid="Tri-10x" />
   <ns1:frame
-     id="frame1395"
+     id="frame2468"
      ns1:transition-path-hide="true"
      ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
      ns1:timeout-enable="false"
      ns1:show-in-frame-list="true"
      ns1:clip="false"
      ns1:hide="false"
-     ns1:sequence="4"
-     ns1:title="Paraffin"
-     ns1:refid="paraffin" />
+     ns1:sequence="9"
+     ns1:title="HE-10x"
+     ns1:refid="HE-10x" />
+  <ns1:frame
+     id="frame2420"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="6"
+     ns1:title="HE-4x"
+     ns1:refid="HE-4x" />
+  <ns1:frame
+     id="frame2529"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="13"
+     ns1:title="Tri-20x"
+     ns1:refid="Tri-20x" />
+  <ns1:frame
+     id="frame2433"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="7"
+     ns1:title="Tri-4x"
+     ns1:refid="Tri-4x" />
+  <ns1:frame
+     id="frame2623"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="19"
+     ns1:title="Tri-40x-1"
+     ns1:refid="Tri-40x-1" />
+  <ns1:frame
+     id="frame2584"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="false"
+     ns1:hide="false"
+     ns1:sequence="16"
+     ns1:title="HE-40x-1"
+     ns1:refid="HE-40x-1" />
 </svg>
