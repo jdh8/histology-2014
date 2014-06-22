@@ -50,8 +50,8 @@
      id="namedview151"
      showgrid="false"
      inkscape:zoom="0.24583333"
-     inkscape:cx="639.99999"
-     inkscape:cy="479.99999"
+     inkscape:cx="639.99998"
+     inkscape:cy="479.99998"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -231,12 +231,12 @@ a:hover  &gt; image {
        xlink:show="new"
        id="a39">
       <image
-         x="260"
-         y="420"
-         width="120"
-         height="42"
+         xlink:href="image/by-sa.svg"
          id="image41"
-         xlink:href="image/by-sa.svg" />
+         height="42"
+         width="120"
+         y="420"
+         x="260" />
     </a>
   </g>
   <g
@@ -256,9 +256,18 @@ a:hover  &gt; image {
        x="40"
        y="120"
        id="text48"><a
-   xlink:show="new"
+   xlink:href="hist.pdf"
    id="a50"
-   xlink:href="hist.pdf">書面報告</a>
+   xlink:show="new">書面報告</a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -286,6 +295,15 @@ a:hover  &gt; image {
    xlink:href="http://histology.med.umich.edu/node/334"
    xlink:show="new"
    id="a58">來源</a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -392,19 +410,19 @@ a:hover  &gt; image {
        y="150"
        id="text97">尺規長 25 μm，寬 5 μm。</text>
     <image
-       id="HE-4x"
-       width="256"
-       height="192"
+       xlink:href="image/HE-4x.jpg"
+       y="200"
        x="43"
-       y="200"
-       xlink:href="image/HE-4x.jpg" />
-    <image
-       id="Tri-4x"
-       width="256"
        height="192"
-       x="341"
+       width="256"
+       id="HE-4x" />
+    <image
+       xlink:href="image/Tri-4x.jpg"
        y="200"
-       xlink:href="image/Tri-4x.jpg" />
+       x="341"
+       height="192"
+       width="256"
+       id="Tri-4x" />
     <use
        xlink:href="#rulers"
        id="use101" />
@@ -429,19 +447,19 @@ a:hover  &gt; image {
        y="150"
        id="text110">尺規長 10 μm，寬 2 μm。</text>
     <image
-       id="HE-10x"
-       width="256"
-       height="192"
+       xlink:href="image/HE-10x.jpg"
+       y="200"
        x="43"
-       y="200"
-       xlink:href="image/HE-10x.jpg" />
-    <image
-       id="Tri-10x"
-       width="256"
        height="192"
-       x="341"
+       width="256"
+       id="HE-10x" />
+    <image
+       xlink:href="image/Tri-10x-1.jpg"
        y="200"
-       xlink:href="image/Tri-10x-1.jpg" />
+       x="341"
+       height="192"
+       width="256"
+       id="Tri-10x" />
     <use
        xlink:href="#rulers"
        id="use114" />
@@ -466,19 +484,19 @@ a:hover  &gt; image {
        y="150"
        id="text123">尺規長 5 μm，寬 1 μm。</text>
     <image
-       id="HE-20x"
-       width="256"
-       height="192"
+       xlink:href="image/HE-20x-2.jpg"
+       y="200"
        x="43"
-       y="200"
-       xlink:href="image/HE-20x-2.jpg" />
-    <image
-       id="Tri-20x"
-       width="256"
        height="192"
-       x="341"
+       width="256"
+       id="HE-20x" />
+    <image
+       xlink:href="image/Tri-20x-2.jpg"
        y="200"
-       xlink:href="image/Tri-20x-2.jpg" />
+       x="341"
+       height="192"
+       width="256"
+       id="Tri-20x" />
     <use
        xlink:href="#rulers"
        id="use127" />
@@ -508,47 +526,47 @@ a:hover  &gt; image {
        y="150"
        id="text137">尺規長 2.5 μm，寬 0.5 μm。</text>
     <image
-       id="HE-40x-1"
-       width="256"
-       height="192"
-       x="43"
+       xlink:href="image/HE-40x-1.jpg"
        y="200"
-       xlink:href="image/HE-40x-1.jpg" />
-    <image
-       id="Tri-40x-1"
-       width="256"
+       x="43"
        height="192"
-       x="341"
+       width="256"
+       id="HE-40x-1" />
+    <image
+       xlink:href="image/Tri-40x-1.jpg"
        y="200"
-       xlink:href="image/Tri-40x-1.jpg" />
-    <image
-       id="HE-40x-2"
-       width="256"
-       height="192"
-       x="43"
-       y="440"
-       xlink:href="image/HE-40x-2.jpg" />
-    <image
-       id="Tri-40x-2"
-       width="256"
-       height="192"
        x="341"
+       height="192"
+       width="256"
+       id="Tri-40x-1" />
+    <image
+       xlink:href="image/HE-40x-2.jpg"
        y="440"
-       xlink:href="image/Tri-40x-2.jpg" />
-    <image
-       id="HE-40x-3"
-       width="256"
-       height="192"
        x="43"
-       y="680"
-       xlink:href="image/HE-40x-3.jpg" />
-    <image
-       id="Tri-40x-3"
-       width="256"
        height="192"
+       width="256"
+       id="HE-40x-2" />
+    <image
+       xlink:href="image/Tri-40x-2.jpg"
+       y="440"
        x="341"
+       height="192"
+       width="256"
+       id="Tri-40x-2" />
+    <image
+       xlink:href="image/HE-40x-3.jpg"
        y="680"
-       xlink:href="image/Tri-40x-3.jpg" />
+       x="43"
+       height="192"
+       width="256"
+       id="HE-40x-3" />
+    <image
+       xlink:href="image/Tri-40x-3.jpg"
+       y="680"
+       x="341"
+       height="192"
+       width="256"
+       id="Tri-40x-3" />
     <use
        xlink:href="#rulers"
        id="use145" />
@@ -3325,7 +3343,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
 </style>
   <ns1:frame
      ns1:refid="title"
-     ns1:title="Title"
+     ns1:title="組織型態學"
      ns1:sequence="1"
      ns1:hide="false"
      ns1:clip="false"
@@ -3339,7 +3357,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1362" />
   <ns1:frame
      ns1:refid="Obj-40x-2"
-     ns1:title="Obj-40x-2"
+     ns1:title="物鏡 40x-2"
      ns1:sequence="15"
      ns1:hide="false"
      ns1:clip="false"
@@ -3353,7 +3371,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1446" />
   <ns1:frame
      ns1:refid="Obj-4x"
-     ns1:title="Obj-4x"
+     ns1:title="物鏡 4x"
      ns1:sequence="5"
      ns1:hide="false"
      ns1:clip="false"
@@ -3367,7 +3385,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1411" />
   <ns1:frame
      ns1:refid="section"
-     ns1:title="Section"
+     ns1:title="老生常談"
      ns1:sequence="3"
      ns1:hide="false"
      ns1:clip="false"
@@ -3381,7 +3399,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1387" />
   <ns1:frame
      ns1:refid="summary"
-     ns1:title="Summary"
+     ns1:title="摘要"
      ns1:sequence="2"
      ns1:hide="false"
      ns1:clip="false"
@@ -3395,7 +3413,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1377" />
   <ns1:frame
      ns1:refid="Obj-20x"
-     ns1:title="Obj-20x"
+     ns1:title="物鏡 20x"
      ns1:sequence="11"
      ns1:hide="false"
      ns1:clip="false"
@@ -3409,7 +3427,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1430" />
   <ns1:frame
      ns1:refid="Obj-10x"
-     ns1:title="Obj-10x"
+     ns1:title="物鏡 10x"
      ns1:sequence="8"
      ns1:hide="false"
      ns1:clip="false"
@@ -3423,7 +3441,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1423" />
   <ns1:frame
      ns1:refid="Obj-40x-1"
-     ns1:title="Obj-40x-1"
+     ns1:title="物鏡 40x-1"
      ns1:sequence="14"
      ns1:hide="false"
      ns1:clip="false"
@@ -3437,7 +3455,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1437" />
   <ns1:frame
      ns1:refid="panorama"
-     ns1:title="Panorama"
+     ns1:title="全景"
      ns1:sequence="22"
      ns1:hide="false"
      ns1:clip="false"
@@ -3451,7 +3469,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      id="frame1453" />
   <ns1:frame
      ns1:refid="paraffin"
-     ns1:title="Paraffin"
+     ns1:title="石蠟切片"
      ns1:sequence="4"
      ns1:hide="false"
      ns1:clip="false"
@@ -3475,7 +3493,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="20"
-     ns1:title="Tri-40x-2"
+     ns1:title="Masson's trichrome 40x-2"
      ns1:refid="Tri-40x-2" />
   <ns1:frame
      id="frame2517"
@@ -3489,7 +3507,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="12"
-     ns1:title="HE-20x"
+     ns1:title="H&amp;E 20x"
      ns1:refid="HE-20x" />
   <ns1:frame
      id="frame2634"
@@ -3503,7 +3521,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="21"
-     ns1:title="Tri-40x-3"
+     ns1:title="Masson's trichrome 40x-3"
      ns1:refid="Tri-40x-3" />
   <ns1:frame
      id="frame2603"
@@ -3517,7 +3535,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="17"
-     ns1:title="HE-40x-2"
+     ns1:title="H&amp;E 40x-2"
      ns1:refid="HE-40x-2" />
   <ns1:frame
      id="frame2606"
@@ -3531,7 +3549,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="18"
-     ns1:title="HE-40x-3"
+     ns1:title="H&amp;E 40x-3"
      ns1:refid="HE-40x-3" />
   <ns1:frame
      id="frame2471"
@@ -3545,7 +3563,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="10"
-     ns1:title="Tri-10x"
+     ns1:title="Masson's trichrome 10x"
      ns1:refid="Tri-10x" />
   <ns1:frame
      id="frame2468"
@@ -3559,7 +3577,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="9"
-     ns1:title="HE-10x"
+     ns1:title="H&amp;E 10x"
      ns1:refid="HE-10x" />
   <ns1:frame
      id="frame2420"
@@ -3573,7 +3591,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="6"
-     ns1:title="HE-4x"
+     ns1:title="H&amp;E 4x"
      ns1:refid="HE-4x" />
   <ns1:frame
      id="frame2529"
@@ -3587,7 +3605,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="13"
-     ns1:title="Tri-20x"
+     ns1:title="Masson's trichrome 20x"
      ns1:refid="Tri-20x" />
   <ns1:frame
      id="frame2433"
@@ -3601,7 +3619,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="7"
-     ns1:title="Tri-4x"
+     ns1:title="Masson's trichrome 4x"
      ns1:refid="Tri-4x" />
   <ns1:frame
      id="frame2623"
@@ -3615,7 +3633,7 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="19"
-     ns1:title="Tri-40x-1"
+     ns1:title="Masson's trichrome 40x-1"
      ns1:refid="Tri-40x-1" />
   <ns1:frame
      id="frame2584"
@@ -3629,6 +3647,232 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:clip="false"
      ns1:hide="false"
      ns1:sequence="16"
-     ns1:title="HE-40x-1"
+     ns1:title="H&amp;E 40x-1"
      ns1:refid="HE-40x-1" />
+  <script
+     id="sozi-extras-media-script"
+     ns1:version="13.11-30213629">/*
+ * Sozi - A presentation tool using the SVG standard
+ *
+ * Copyright (C) 2010-2013 Guillaume Savaton
+ *
+ * This program is dual licensed under the terms of the MIT license
+ * or the GNU General Public License (GPL) version 3.
+ * A copy of both licenses is provided in the doc/ folder of the
+ * official release of Sozi.
+ * 
+ * See http://sozi.baierouge.fr/wiki/en:license for details.
+ */
+
+this.addEventListener(&quot;load&quot;, function () {
+	var	svgNs = &quot;http://www.w3.org/2000/svg&quot;,
+	    soziNs = &quot;http://sozi.baierouge.fr&quot;,
+		xhtmlNs = &quot;http://www.w3.org/1999/xhtml&quot;,
+		window = this,
+		document = window.document,
+		mediaSources = [],
+		mediaList, i, j, k, rect, foreignObject,
+		html, htmlMedia, htmlSource;
+	
+    function clickHandler(evt) {
+        evt.stopPropagation();
+    }
+    
+    function registerFrameChangeHandler(htmlMedia, startFrame, stopFrame) {
+        sozi.events.listen(&quot;sozi.player.framechange&quot;, function(index) {
+            var frameId = sozi.document.frames[index].id;
+		    if (frameId === startFrame) {
+		        htmlMedia.play();
+			}
+            else if (frameId === stopFrame) {
+                htmlMedia.pause();
+            }
+		});
+    }
+    
+	mediaSources.push(document.getElementsByTagNameNS(soziNs, &quot;video&quot;));
+	mediaSources.push(document.getElementsByTagNameNS(soziNs, &quot;audio&quot;));
+
+	mediaList = [];
+	for (k = 0; k &lt; mediaSources.length; k += 1) {
+	    for (i = 0; i &lt; mediaSources[k].length; i += 1) {
+		    rect = mediaSources[k][i].parentNode;
+	
+		    // Create HTML media source element
+		    htmlSource = document.createElementNS(xhtmlNs, &quot;source&quot;);
+		    htmlSource.setAttribute(&quot;type&quot;, mediaSources[k][i].getAttributeNS(soziNs, &quot;type&quot;));
+		    htmlSource.setAttribute(&quot;src&quot;, mediaSources[k][i].getAttributeNS(soziNs, &quot;src&quot;));
+
+		    for (j = 0; j &lt; mediaList.length; j += 1) {
+			    if (mediaList[j].rect === rect) {
+				    break;
+			    }
+		    }
+	
+		    if (j === mediaList.length) {
+		        rect.setAttribute(&quot;visibility&quot;, &quot;hidden&quot;);
+		        
+			    // Create HTML media element
+			    htmlMedia = document.createElementNS(xhtmlNs, mediaSources[k][i].localName);
+			    htmlMedia.setAttribute(&quot;controls&quot;, &quot;controls&quot;);
+			    if (mediaSources[k][i].localName === &quot;video&quot;) {
+			        htmlMedia.setAttribute(&quot;width&quot;, rect.getAttribute(&quot;width&quot;));
+			        htmlMedia.setAttribute(&quot;height&quot;, rect.getAttribute(&quot;height&quot;));
+			    }
+		        htmlMedia.addEventListener(&quot;click&quot;, clickHandler, false);
+		        htmlMedia.addEventListener(&quot;contextmenu&quot;, clickHandler, false);
+		        
+			    // Create HTML root element
+			    html = document.createElementNS(xhtmlNs, &quot;html&quot;);
+			    html.appendChild(htmlMedia);
+		
+			    // Create SVG foreign object
+			    foreignObject = document.createElementNS(svgNs, &quot;foreignObject&quot;);
+			    foreignObject.setAttribute(&quot;x&quot;, rect.getAttribute(&quot;x&quot;));
+			    foreignObject.setAttribute(&quot;y&quot;, rect.getAttribute(&quot;y&quot;));
+			    foreignObject.setAttribute(&quot;width&quot;, rect.getAttribute(&quot;width&quot;));
+			    foreignObject.setAttribute(&quot;height&quot;, rect.getAttribute(&quot;height&quot;));
+			    foreignObject.appendChild(html);
+				
+			    rect.parentNode.insertBefore(foreignObject, rect.nextSibling);
+			
+			    if (mediaSources[k][i].hasAttributeNS(soziNs, &quot;start-frame&quot;)) {
+			        registerFrameChangeHandler(htmlMedia,
+			            mediaSources[k][i].getAttributeNS(soziNs, &quot;start-frame&quot;),
+			            mediaSources[k][i].getAttributeNS(soziNs, &quot;stop-frame&quot;)
+			         );
+			    }
+			
+			    mediaList.push({
+				    rect: mediaSources[k][i].parentNode,
+				    htmlMedia: htmlMedia
+			    });
+		    }
+	    
+    		// Append HTML source element to current HTML media element
+    		mediaList[j].htmlMedia.appendChild(htmlSource);
+	    }
+	}				
+}, false);
+</script>
+  <g
+     id="g3158">
+    <rect
+       x="0"
+       y="0"
+       width="640"
+       height="480"
+       stroke="none"
+       fill="#aaa"
+       id="rect3160">
+      <ns1:audio
+         ns1:type="audio/ogg"
+         ns1:src="audio/2.ogg" />
+    </rect>
+  </g>
+  <g
+     id="g3346">
+    <rect
+       id="rect3348"
+       fill="#aaa"
+       stroke="none"
+       height="480"
+       width="640"
+       y="0"
+       x="0">
+      <ns1:audio
+         ns1:src="audio/3.ogg"
+         ns1:type="audio/ogg" />
+    </rect>
+  </g>
+  <g
+     id="g3538">
+    <rect
+       x="0"
+       y="0"
+       width="640"
+       height="480"
+       stroke="none"
+       fill="#aaa"
+       id="rect3540">
+      <ns1:audio
+         ns1:type="audio/ogg"
+         ns1:src="audio/4.ogg" />
+    </rect>
+  </g>
+  <g
+     id="g3734">
+    <rect
+       id="rect3736"
+       fill="#aaa"
+       stroke="none"
+       height="480"
+       width="640"
+       y="0"
+       x="0">
+      <ns1:audio
+         ns1:src="audio/5.ogg"
+         ns1:type="audio/ogg" />
+    </rect>
+  </g>
+  <g
+     id="g3934">
+    <rect
+       x="0"
+       y="0"
+       width="640"
+       height="480"
+       stroke="none"
+       fill="#aaa"
+       id="rect3936">
+      <ns1:audio
+         ns1:type="audio/ogg"
+         ns1:src="audio/6.ogg" />
+    </rect>
+  </g>
+  <g
+     id="g4138">
+    <rect
+       id="rect4140"
+       fill="#aaa"
+       stroke="none"
+       height="480"
+       width="640"
+       y="0"
+       x="0">
+      <ns1:audio
+         ns1:src="audio/7.ogg"
+         ns1:type="audio/ogg" />
+    </rect>
+  </g>
+  <g
+     id="g4346">
+    <rect
+       x="0"
+       y="0"
+       width="640"
+       height="480"
+       stroke="none"
+       fill="#aaa"
+       id="rect4348">
+      <ns1:audio
+         ns1:type="audio/ogg"
+         ns1:src="audio/8.ogg" />
+    </rect>
+  </g>
+  <g
+     id="g4558">
+    <rect
+       id="rect4560"
+       fill="#aaa"
+       stroke="none"
+       height="480"
+       width="640"
+       y="0"
+       x="0">
+      <ns1:audio
+         ns1:src="audio/11.ogg"
+         ns1:type="audio/ogg" />
+    </rect>
+  </g>
 </svg>
