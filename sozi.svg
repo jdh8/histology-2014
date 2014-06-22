@@ -245,7 +245,13 @@ a:hover  &gt; image {
     <rect
        id="summary"
        width="640"
-       height="480" />
+       height="480">
+      <ns1:audio
+	     ns1:start-frame="frame1377"
+		 ns1:stop-frame="frame1387"
+         ns1:type="audio/ogg"
+         ns1:src="audio/2.ogg" />
+	</rect>
     <text
        x="320"
        y="64"
@@ -258,24 +264,7 @@ a:hover  &gt; image {
        id="text48"><a
    xlink:href="hist.pdf"
    id="a50"
-   xlink:show="new">書面報告</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-中猜測該組織為骨骼肌</text>
+   xlink:show="new">書面報告</a>中猜測該組織為骨骼肌</text>
     <text
        class="li"
        x="60"
@@ -294,25 +283,7 @@ a:hover  &gt; image {
 		[<a
    xlink:href="http://histology.med.umich.edu/node/334"
    xlink:show="new"
-   id="a58">來源</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
-	</text>
+   id="a58">來源</a>]</text>
   </g>
   <g
      transform="matrix(0.5 0 0 0.5 960 0)"
@@ -320,7 +291,11 @@ a:hover  &gt; image {
     <rect
        id="section"
        width="640"
-       height="480" />
+       height="480">
+      <ns1:audio ns1:start-frame="frame1387" ns1:stop-frame="frame1395"
+         ns1:src="audio/3.ogg"
+         ns1:type="audio/ogg" />
+    </rect>	   
     <text
        x="320"
        y="64"
@@ -358,7 +333,11 @@ a:hover  &gt; image {
     <rect
        id="paraffin"
        width="640"
-       height="480" />
+       height="480">
+      <ns1:audio ns1:start-frame="frame1395" ns1:stop-frame="frame1411"
+         ns1:type="audio/ogg"
+         ns1:src="audio/4.ogg" />
+	</rect>
     <text
        x="320"
        y="64"
@@ -398,7 +377,11 @@ a:hover  &gt; image {
     <rect
        id="Obj-4x"
        width="640"
-       height="480" />
+       height="480">
+      <ns1:audio ns1:start-frame="frame1411" ns1:stop-frame="frame2420"
+         ns1:src="audio/5.ogg"
+         ns1:type="audio/ogg" />
+	</rect>
     <text
        class="h"
        x="320"
@@ -423,6 +406,24 @@ a:hover  &gt; image {
        height="192"
        width="256"
        id="Tri-4x" />
+    <rect
+       y="180"
+       x="43"
+       height="192"
+       width="256">
+      <ns1:audio ns1:start-frame="frame2420" ns1:stop-frame="frame2433"
+         ns1:type="audio/ogg"
+         ns1:src="audio/6.ogg" />
+    </rect>
+    <rect
+       y="180"
+       x="341"
+       height="192"
+       width="256">
+      <ns1:audio ns1:start-frame="frame2433" ns1:stop-frame="frame1423"
+         ns1:src="audio/7.ogg"
+         ns1:type="audio/ogg" />
+    </rect>
     <use
        xlink:href="#rulers"
        id="use101" />
@@ -435,7 +436,11 @@ a:hover  &gt; image {
     <rect
        id="Obj-10x"
        width="640"
-       height="480" />
+       height="480">
+      <ns1:audio ns1:start-frame="frame1423" ns1:stop-frame="frame1430"
+         ns1:type="audio/ogg"
+         ns1:src="audio/8.ogg" />
+	</rect>
     <text
        class="h"
        x="320"
@@ -472,7 +477,11 @@ a:hover  &gt; image {
     <rect
        id="Obj-20x"
        width="640"
-       height="480" />
+       height="480">
+      <ns1:audio ns1:start-frame="frame1430" ns1:stop-frame="frame1453"
+         ns1:src="audio/11.ogg"
+         ns1:type="audio/ogg" />
+	</rect>
     <text
        class="h"
        x="320"
@@ -3755,124 +3764,4 @@ this.addEventListener(&quot;load&quot;, function () {
 	}				
 }, false);
 </script>
-  <g
-     id="g3158">
-    <rect
-       x="0"
-       y="0"
-       width="640"
-       height="480"
-       stroke="none"
-       fill="#aaa"
-       id="rect3160">
-      <ns1:audio
-         ns1:type="audio/ogg"
-         ns1:src="audio/2.ogg" />
-    </rect>
-  </g>
-  <g
-     id="g3346">
-    <rect
-       id="rect3348"
-       fill="#aaa"
-       stroke="none"
-       height="480"
-       width="640"
-       y="0"
-       x="0">
-      <ns1:audio
-         ns1:src="audio/3.ogg"
-         ns1:type="audio/ogg" />
-    </rect>
-  </g>
-  <g
-     id="g3538">
-    <rect
-       x="0"
-       y="0"
-       width="640"
-       height="480"
-       stroke="none"
-       fill="#aaa"
-       id="rect3540">
-      <ns1:audio
-         ns1:type="audio/ogg"
-         ns1:src="audio/4.ogg" />
-    </rect>
-  </g>
-  <g
-     id="g3734">
-    <rect
-       id="rect3736"
-       fill="#aaa"
-       stroke="none"
-       height="480"
-       width="640"
-       y="0"
-       x="0">
-      <ns1:audio
-         ns1:src="audio/5.ogg"
-         ns1:type="audio/ogg" />
-    </rect>
-  </g>
-  <g
-     id="g3934">
-    <rect
-       x="0"
-       y="0"
-       width="640"
-       height="480"
-       stroke="none"
-       fill="#aaa"
-       id="rect3936">
-      <ns1:audio
-         ns1:type="audio/ogg"
-         ns1:src="audio/6.ogg" />
-    </rect>
-  </g>
-  <g
-     id="g4138">
-    <rect
-       id="rect4140"
-       fill="#aaa"
-       stroke="none"
-       height="480"
-       width="640"
-       y="0"
-       x="0">
-      <ns1:audio
-         ns1:src="audio/7.ogg"
-         ns1:type="audio/ogg" />
-    </rect>
-  </g>
-  <g
-     id="g4346">
-    <rect
-       x="0"
-       y="0"
-       width="640"
-       height="480"
-       stroke="none"
-       fill="#aaa"
-       id="rect4348">
-      <ns1:audio
-         ns1:type="audio/ogg"
-         ns1:src="audio/8.ogg" />
-    </rect>
-  </g>
-  <g
-     id="g4558">
-    <rect
-       id="rect4560"
-       fill="#aaa"
-       stroke="none"
-       height="480"
-       width="640"
-       y="0"
-       x="0">
-      <ns1:audio
-         ns1:src="audio/11.ogg"
-         ns1:type="audio/ogg" />
-    </rect>
-  </g>
 </svg>
