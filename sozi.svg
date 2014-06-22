@@ -236,7 +236,7 @@ a:hover  &gt; image {
          width="120"
          height="42"
          id="image41"
-         xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/by-sa.svg" />
+         xlink:href="image/by-sa.svg" />
     </a>
   </g>
   <g
@@ -258,7 +258,7 @@ a:hover  &gt; image {
        class="li"><a
    xlink:show="new"
    id="a50"
-   xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/hist.pdf">書面報告</a>
+   xlink:href="hist.pdf">書面報告</a>
 
 中猜測該組織為骨骼肌</text>
     <text
@@ -385,14 +385,14 @@ a:hover  &gt; image {
        height="192"
        x="43"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/HE-4x.jpg" />
+       xlink:href="image/HE-4x.jpg" />
     <image
        id="Tri-4x"
        width="256"
        height="192"
        x="341"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/Tri-4x.jpg" />
+       xlink:href="image/Tri-4x.jpg" />
     <use
        id="use101"
        xlink:href="#rulers" />
@@ -422,14 +422,14 @@ a:hover  &gt; image {
        height="192"
        x="43"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/HE-10x.jpg" />
+       xlink:href="image/HE-10x.jpg" />
     <image
        id="Tri-10x"
        width="256"
        height="192"
        x="341"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/Tri-10x-1.jpg" />
+       xlink:href="image/Tri-10x-1.jpg" />
     <use
        id="use114"
        xlink:href="#rulers" />
@@ -459,14 +459,14 @@ a:hover  &gt; image {
        height="192"
        x="43"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/HE-20x-2.jpg" />
+       xlink:href="image/HE-20x-2.jpg" />
     <image
        id="Tri-20x"
        width="256"
        height="192"
        x="341"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/Tri-20x-2.jpg" />
+       xlink:href="image/Tri-20x-2.jpg" />
     <use
        id="use127"
        xlink:href="#rulers" />
@@ -501,42 +501,42 @@ a:hover  &gt; image {
        height="192"
        x="43"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/HE-40x-1.jpg" />
+       xlink:href="image/HE-40x-1.jpg" />
     <image
        id="Tri-40x-1"
        width="256"
        height="192"
        x="341"
        y="200"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/Tri-40x-1.jpg" />
+       xlink:href="image/Tri-40x-1.jpg" />
     <image
        id="HE-40x-2"
        width="256"
        height="192"
        x="43"
        y="440"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/HE-40x-2.jpg" />
+       xlink:href="image/HE-40x-2.jpg" />
     <image
        id="Tri-40x-2"
        width="256"
        height="192"
        x="341"
        y="440"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/Tri-40x-2.jpg" />
+       xlink:href="image/Tri-40x-2.jpg" />
     <image
        id="HE-40x-3"
        width="256"
        height="192"
        x="43"
        y="680"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/HE-40x-3.jpg" />
+       xlink:href="image/HE-40x-3.jpg" />
     <image
        id="Tri-40x-3"
        width="256"
        height="192"
        x="341"
        y="680"
-       xlink:href="/home/jdh8/Documents/臺北醫學大學/組織型態學/image/Tri-40x-3.jpg" />
+       xlink:href="image/Tri-40x-3.jpg" />
     <use
        id="use145"
        xlink:href="#rulers" />
