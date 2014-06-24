@@ -136,7 +136,9 @@ a:hover  > image {
 	<text x="320" y="64" class="h">摘要</text>
 	<text class="li" x="40" y="120"><a xlink:href="hist.pdf" xlink:show="new">書面報告</a>中猜測該組織為骨骼肌</text>
 	<text class="li" x="60" y="160">老師表示：</text>
-	<polygon class="red" points="320,220 260,160 240,180 300,240 240,300 260,320 320,260 380,320 400,300 340,240 400,180 380,160" />
+	<polygon
+		class="red"
+		points="320,220 260,160 240,180 300,240 240,300 260,320 320,260 380,320 400,300 340,240 400,180 380,160" />
 	<text class="li" x="40" y="400">
 		新猜測：腦下垂體
 		[<a xlink:href="http://histology.med.umich.edu/node/334" xlink:show="new">來源</a>]
@@ -272,28 +274,160 @@ a:hover  > image {
 	font-size: 12pt;
 }
 </style>
-<sozi:frame id="1"  sozi:clip="false" sozi:hide="false" sozi:refid="title"     sozi:title="組織型態學" />
-<sozi:frame id="2"  sozi:clip="false" sozi:hide="false" sozi:refid="summary"   sozi:title="摘要" />
-<sozi:frame id="3"  sozi:clip="false" sozi:hide="false" sozi:refid="section"   sozi:title="老生常談" />
-<sozi:frame id="4"  sozi:clip="false" sozi:hide="false" sozi:refid="paraffin"  sozi:title="石蠟切片" />
-<sozi:frame id="5"  sozi:clip="false" sozi:hide="false" sozi:refid="Obj-4x"    sozi:title="物鏡 4x" />
-<sozi:frame id="6"  sozi:clip="false" sozi:hide="false" sozi:refid="HE-4x"     sozi:title="H&amp;E 4x" />
-<sozi:frame id="7"  sozi:clip="false" sozi:hide="false" sozi:refid="Tri-4x"    sozi:title="Masson's trichrome 4x" />
-<sozi:frame id="8"  sozi:clip="false" sozi:hide="false" sozi:refid="Obj-10x"   sozi:title="物鏡 10x" />
-<sozi:frame id="9"  sozi:clip="false" sozi:hide="false" sozi:refid="HE-10x"    sozi:title="H&amp;E 10x" />
-<sozi:frame id="10" sozi:clip="false" sozi:hide="false" sozi:refid="Tri-10x"   sozi:title="Masson's trichrome 10x" />
-<sozi:frame id="11" sozi:clip="false" sozi:hide="false" sozi:refid="Obj-20x"   sozi:title="物鏡 20x" />
-<sozi:frame id="12" sozi:clip="false" sozi:hide="false" sozi:refid="HE-20x"    sozi:title="H&amp;E 20x" />
-<sozi:frame id="13" sozi:clip="false" sozi:hide="false" sozi:refid="Tri-20x"   sozi:title="Masson's trichrome 20x" />
-<sozi:frame id="14" sozi:clip="false" sozi:hide="false" sozi:refid="Obj-40x-1" sozi:title="物鏡 40x (1)" />
-<sozi:frame id="15" sozi:clip="false" sozi:hide="false" sozi:refid="Obj-40x-2" sozi:title="物鏡 40x (2)" />
-<sozi:frame id="16" sozi:clip="false" sozi:hide="false" sozi:refid="HE-40x-1"  sozi:title="H&amp;E 40x (1)" />
-<sozi:frame id="17" sozi:clip="false" sozi:hide="false" sozi:refid="HE-40x-2"  sozi:title="H&amp;E 40x (2)" />
-<sozi:frame id="18" sozi:clip="false" sozi:hide="false" sozi:refid="HE-40x-3"  sozi:title="H&amp;E 40x (3)" />
-<sozi:frame id="19" sozi:clip="false" sozi:hide="false" sozi:refid="Tri-40x-1" sozi:title="Masson's trichrome 40x (1)" />
-<sozi:frame id="20" sozi:clip="false" sozi:hide="false" sozi:refid="Tri-40x-2" sozi:title="Masson's trichrome 40x (2)" />
-<sozi:frame id="21" sozi:clip="false" sozi:hide="false" sozi:refid="Tri-40x-3" sozi:title="Masson's trichrome 40x (3)" />
-<sozi:frame id="22" sozi:clip="false" sozi:hide="false" sozi:refid="panorama"  sozi:title="全景" />
+<sozi:frame
+	id="1"
+	sozi:sequence="1"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="title"
+	sozi:title="組織型態學" />
+<sozi:frame
+	id="2"
+	sozi:sequence="2"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="summary"
+	sozi:title="摘要" />
+<sozi:frame
+	id="3"
+	sozi:sequence="3"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="section"
+	sozi:title="老生常談" />
+<sozi:frame
+	id="4"
+	sozi:sequence="4"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="paraffin"
+	sozi:title="石蠟切片" />
+<sozi:frame
+	id="5"
+	sozi:sequence="5"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Obj-4x"
+	sozi:title="物鏡 4x" />
+<sozi:frame
+	id="6"
+	sozi:sequence="6"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="HE-4x"
+	sozi:title="H&amp;E 4x" />
+<sozi:frame
+	id="7"
+	sozi:sequence="7"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Tri-4x"
+	sozi:title="Masson's trichrome 4x" />
+<sozi:frame
+	id="8"
+	sozi:sequence="8"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Obj-10x"
+	sozi:title="物鏡 10x" />
+<sozi:frame
+	id="9"
+	sozi:sequence="9"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="HE-10x"
+	sozi:title="H&amp;E 10x" />
+<sozi:frame
+	id="10"
+	sozi:sequence="10"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Tri-10x"
+	sozi:title="Masson's trichrome 10x" />
+<sozi:frame
+	id="11"
+	sozi:sequence="11"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Obj-20x"
+	sozi:title="物鏡 20x" />
+<sozi:frame
+	id="12"
+	sozi:sequence="12"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="HE-20x"
+	sozi:title="H&amp;E 20x" />
+<sozi:frame
+	id="13"
+	sozi:sequence="13"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Tri-20x"
+	sozi:title="Masson's trichrome 20x" />
+<sozi:frame
+	id="14"
+	sozi:sequence="14"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Obj-40x-1"
+	sozi:title="物鏡 40x (1)" />
+<sozi:frame
+	id="15"
+	sozi:sequence="15"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Obj-40x-2"
+	sozi:title="物鏡 40x (2)" />
+<sozi:frame
+	id="16"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:sequence="16"
+	sozi:refid="HE-40x-1"
+	sozi:title="H&amp;E 40x (1)" />
+<sozi:frame
+	id="17"
+	sozi:sequence="17"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="HE-40x-2"
+	sozi:title="H&amp;E 40x (2)" />
+<sozi:frame
+	id="18"
+	sozi:sequence="18"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="HE-40x-3"
+	sozi:title="H&amp;E 40x (3)" />
+<sozi:frame
+	id="19"
+	sozi:sequence="19"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Tri-40x-1"
+	sozi:title="Masson's trichrome 40x (1)" />
+<sozi:frame
+	id="20"
+	sozi:sequence="20"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Tri-40x-2"
+	sozi:title="Masson's trichrome 40x (2)" />
+<sozi:frame
+	id="21"
+	sozi:sequence="21"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="Tri-40x-3"
+	sozi:title="Masson's trichrome 40x (3)" />
+<sozi:frame
+	id="22"
+	sozi:sequence="22"
+	sozi:clip="false"
+	sozi:hide="false"
+	sozi:refid="panorama"
+	sozi:title="全景" />
 <script><![CDATA["use strict"
 /*
  * Sozi - A presentation tool using the SVG standard
