@@ -22,7 +22,8 @@
 ----
 > 人類的腮腺完全由漿液性腺泡 (serous acini)
 > 及其管道所組成。但整個腺體中，常有多量的脂肪細胞 (adipocytes) 散佈於其間。
-> <cite style="display:block;text-align:right">《Ross 組織學》第 6 版圖板 52〈腮腺〉</cite>
+>
+> <div style="text-align:right"><cite>《Ross 組織學》第 6 版圖板 52〈腮腺〉</cite></div>
 
 授權
 ----
