@@ -1,0 +1,113 @@
+/* Copyright (C) 2014 Chen-Pang He <jdh8＠ms63.hinet.net>
+ * 
+ * This file is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This file is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+@namespace url("http://www.w3.org/2000/svg");
+
+rect {
+	fill: none;
+}
+text {
+	fill: #2b2b2b;
+	font-size: 24px;
+}
+
+a,
+#ruler {
+	fill: #24890d;
+	text-decoration: underline;
+}
+a:active,
+a:hover,
+#ruler:hover {
+	fill: #41a62a;
+	text-decoration: none;
+}
+a:active > image,
+a:hover  > image {
+	opacity: .8;
+}
+
+.h {
+	font-size: 40px;
+	font-weight: bold;
+	text-anchor: middle;
+}
+.subtitle {
+	text-anchor: middle;
+}
+#subtitle {
+	font-size: 32px;
+	font-weight: bold;
+	text-anchor: middle;
+}
+
+.red {
+	fill: #f33;
+}
+.blue {
+	fill: #33f;
+}
+
+/*
+ * Sozi - A presentation tool using the SVG standard
+ *
+ * Copyright (C) 2010-2013 Guillaume Savaton
+ *
+ * This program is dual licensed under the terms of the MIT license
+ * or the GNU General Public License (GPL) version 3.
+ * A copy of both licenses is provided in the doc/ folder of the
+ * official release of Sozi.
+ * 
+ * See http://sozi.baierouge.fr/wiki/en:license for details.
+ *
+ * Chen-Pang He removed font-family rules for visual consistency.
+ */
+#sozi-toc text {
+	fill: #eff;
+	font-size: 12pt;
+}
+#sozi-toc text:hover {
+	fill: #0cf;
+	cursor: pointer;
+}
+#sozi-toc text.sozi-toc-current {
+	fill: #fa4;
+}
+#sozi-toc-background {
+	stroke: #222;
+	stroke-opacity: 0.1;
+	stroke-width: 10;
+	fill: #222;
+	fill-opacity: 0.9;
+}
+.sozi-toc-arrow {
+	fill: #eff;
+	fill-opacity: 0.75;
+	stroke: none;
+}
+.sozi-toc-arrow:hover {
+	fill: #0cf;
+}
+#sozi-framenumber circle {
+	stroke: #222;
+	stroke-opacity: 0.1;
+	stroke-width: 4;
+	fill: #222;
+	fill-opacity: 0.9;
+}
+#sozi-framenumber text {
+	fill: #eff;
+	font-size: 12pt;
+}

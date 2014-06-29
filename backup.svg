@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Copyright (C) 2014 Chen-Pang He <jdh8＠ms63.hinet.net>
+	Copyright (C) 2014 Chen-Pang He <jdh8@ms63.hinet.net>
 
 	This file is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -18,17 +18,11 @@
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Lato"?>
 <?xml-stylesheet type="text/css" href="https://jdh8.github.io/css/svg.css"?>
 <?xml-stylesheet type="text/css" href="sozi.css"?>
-<!--
-	If you want to edit this file in Inkscape, please put the content of
-	sozi.css in <style>, in place of the corresponding <?xml-stylesheet?>.
-
-	I use <?xml-stylesheet?> for DRYness.
--->
 <svg version="1.1" viewBox="0 0 1280 960" xml:lang="zh-Hant"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:sozi="http://sozi.baierouge.fr"
 	xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>組織型態學：小鼠腮腺型態觀察</title>
+<title>組織型態學：小鼠腦下垂體型態觀察</title>
 <metadata>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdf:Description xmlns="http://purl.org/dc/terms/">
@@ -40,14 +34,9 @@
 				<weblog rdf:resource="http://jdh8.org/" />
 			</Person>
 		</creator>
-		<subject>組織學</subject>
-		<subject>腮腺</subject>
 		<subject>石蠟切片</subject>
-		<subject xml:lang="en">H&amp;E</subject>
-		<subject xml:lang="en">Masson’s trichrome</subject>
-		<subject xml:lang="en">histology</subject>
-		<subject xml:lang="en">parotid gland</subject>
-		<subject xml:lang="en">paraffin section</subject>
+		<subject>H&amp;E</subject>
+		<subject>Masson's trichrome</subject>
 		<type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
 		<license rdf:resource="https://www.gnu.org/licenses/gpl.html" />
 		<license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
@@ -70,7 +59,7 @@
 			組織型態學
 		</a>
 	</text>
-	<text x="320" y="128" id="subtitle">小鼠腮腺型態觀察</text>
+	<text x="320" y="128" id="subtitle">小鼠腦下垂體型態觀察</text>
 	<text x="320" y="300" class="subtitle">
 		<a xlink:href="http://www.tmu.edu.tw/" xlink:show="new">
 			臺北醫學大學
@@ -87,14 +76,19 @@
 	</a>
 </g>
 <g transform="matrix(0.5 0 0 0.5 640 0)">
-	<rect id="prev-reports" width="640" height="480" />
-	<text x="320" y="64" class="h">前期報告</text>
-	<text x="40" y="120"><a xlink:href="hist.pdf">書面報告</a>中猜測該組織為骨骼肌</text>
-	<text x="40" y="160"><a xlink:href="backup.svg">上次的報告</a>中猜測該組織為腦下垂體</text>
-	<text x="40" y="220">老師表示：</text>
+	<rect id="summary" width="640" height="480">
+		<sozi:audio sozi:src="audio/2.ogg" sozi:type="audio/ogg" sozi:start-frame="2" sozi:stop-frame="3" />
+	</rect>
+	<text x="320" y="64" class="h">摘要</text>
+	<text x="40" y="120"><a xlink:href="hist.pdf" xlink:show="new">書面報告</a>中猜測該組織為骨骼肌</text>
+	<text x="60" y="160">老師表示：</text>
 	<polygon
 		class="red"
-		points="320,280 260,220 240,240 300,300 240,360 260,380 320,320 380,380 400,360 340,300 400,240 380,220" />
+		points="320,220 260,160 240,180 300,240 240,300 260,320 320,260 380,320 400,300 340,240 400,180 380,160" />
+	<text x="40" y="400">
+		新猜測：腦下垂體
+		[<a xlink:href="http://histology.med.umich.edu/node/334" xlink:show="new">來源</a>]
+	</text>
 </g>
 <g transform="matrix(0.5 0 0 0.5 960 0)">
 	<rect id="section" width="640" height="480">
@@ -116,26 +110,28 @@
 	<text x="40" y="160">處理：水→酒精→二甲苯→石蠟</text>
 	<text x="40" y="200">包埋：石蠟</text>
 	<text x="40" y="240">切片：約 5 μm 厚</text>
-	<text x="40" y="280">染色：H&amp;E, Masson’s trichrome</text>
-</g>
-<g transform="matrix(0.5 0 0 0.5 640 240)">
-	<rect id="parotid" width="640" height="480" />
-	<text x="320" y="64" class="h">腮腺</text>
-	<text x="40" y="120">漿液性腺泡 (serous acini)</text>
-	<text x="40" y="160">脂肪細胞 (adipocytes)</text>
-	<text x="40" y="200" class="red">沒有黏液性腺泡 (mucous acini)</text>
-	<text x="40" y="240" class="blue">可能出現顏面神經 (facial nerve, CN VII)</text>
+	<text x="40" y="280">染色：H&amp;E, Masson's trichrome</text>
 </g>
 <g transform="translate(0 480)">
-	<rect id="Obj-4x" width="640" height="480" />
+	<rect id="Obj-4x" width="640" height="480">
+		<sozi:audio sozi:src="audio/5.ogg" sozi:type="audio/ogg" sozi:start-frame="5" sozi:stop-frame="6" />
+	</rect>
 	<text x="320" y="100" class="h">物鏡 4x</text>
 	<text x="40" y="150">尺規長 25 μm，寬 5 μm。</text>
 	<image xlink:href="image/HE-4x.jpg"  id="HE-4x"  width="256" height="192" x="43"  y="200" />
 	<image xlink:href="image/Tri-4x.jpg" id="Tri-4x" width="256" height="192" x="341" y="200" />
+	<rect width="256" height="192" x="43"  y="200">
+		<sozi:audio sozi:src="audio/6.ogg" sozi:type="audio/ogg" sozi:start-frame="6" sozi:stop-frame="7" />
+	</rect>
+	<rect width="256" height="192" x="341" y="200">
+		<sozi:audio sozi:src="audio/7.ogg" sozi:type="audio/ogg" sozi:start-frame="7" sozi:stop-frame="8" />
+	</rect>
 	<use xlink:href="#rulers" />
 </g>
 <g transform="matrix(0.4 0 0 0.4 640 480)">
-	<rect id="Obj-10x" width="640" height="480" />
+	<rect id="Obj-10x" width="640" height="480">
+		<sozi:audio sozi:src="audio/8.ogg" sozi:type="audio/ogg" sozi:start-frame="8" sozi:stop-frame="11" />
+	</rect>
 	<text x="320" y="100" class="h">物鏡 10x</text>
 	<text x="40" y="150">尺規長 10 μm，寬 2 μm。</text>
 	<image xlink:href="image/HE-10x.jpg"    id="HE-10x"  width="256" height="192" x="43"  y="200" />
@@ -143,7 +139,9 @@
 	<use xlink:href="#rulers" />
 </g>
 <g transform="matrix(0.2 0 0 0.2 896 480)">
-	<rect id="Obj-20x" width="640" height="480" />
+	<rect id="Obj-20x" width="640" height="480">
+		<sozi:audio sozi:src="audio/11.ogg" sozi:type="audio/ogg" sozi:start-frame="11" sozi:stop-frame="22" />
+	</rect>
 	<text x="320" y="100" class="h">物鏡 20x</text>
 	<text x="40" y="150">尺規長 5 μm，寬 1 μm。</text>
 	<image xlink:href="image/HE-20x-2.jpg"  id="HE-20x"  width="256" height="192" x="43"  y="200" />
@@ -173,8 +171,8 @@
 <sozi:frame
 	id="2"
 	sozi:sequence="2"
-	sozi:refid="prev-reports"
-	sozi:title="前期報告" />
+	sozi:refid="summary"
+	sozi:title="摘要" />
 <sozi:frame
 	id="3"
 	sozi:sequence="3"
@@ -188,108 +186,103 @@
 <sozi:frame
 	id="5"
 	sozi:sequence="5"
-	sozi:refid="parotid"
-	sozi:title="腮腺" />
-<sozi:frame
-	id="6"
-	sozi:sequence="6"
 	sozi:refid="Obj-4x"
 	sozi:title="物鏡 4x" />
 <sozi:frame
-	id="7"
-	sozi:sequence="7"
+	id="6"
+	sozi:sequence="6"
 	sozi:hide="false"
 	sozi:refid="HE-4x"
 	sozi:title="H&amp;E 4x" />
 <sozi:frame
-	id="8"
-	sozi:sequence="8"
+	id="7"
+	sozi:sequence="7"
 	sozi:hide="false"
 	sozi:refid="Tri-4x"
-	sozi:title="Masson’s trichrome 4x" />
+	sozi:title="Masson's trichrome 4x" />
 <sozi:frame
-	id="9"
-	sozi:sequence="9"
+	id="8"
+	sozi:sequence="8"
 	sozi:refid="Obj-10x"
 	sozi:title="物鏡 10x" />
 <sozi:frame
-	id="10"
-	sozi:sequence="10"
+	id="9"
+	sozi:sequence="9"
 	sozi:hide="false"
 	sozi:refid="HE-10x"
 	sozi:title="H&amp;E 10x" />
 <sozi:frame
-	id="11"
-	sozi:sequence="11"
+	id="10"
+	sozi:sequence="10"
 	sozi:hide="false"
 	sozi:refid="Tri-10x"
-	sozi:title="Masson’s trichrome 10x" />
+	sozi:title="Masson's trichrome 10x" />
 <sozi:frame
-	id="12"
-	sozi:sequence="12"
+	id="11"
+	sozi:sequence="11"
 	sozi:refid="Obj-20x"
 	sozi:title="物鏡 20x" />
 <sozi:frame
-	id="13"
-	sozi:sequence="13"
+	id="12"
+	sozi:sequence="12"
 	sozi:hide="false"
 	sozi:refid="HE-20x"
 	sozi:title="H&amp;E 20x" />
 <sozi:frame
-	id="14"
-	sozi:sequence="14"
+	id="13"
+	sozi:sequence="13"
 	sozi:hide="false"
 	sozi:refid="Tri-20x"
-	sozi:title="Masson’s trichrome 20x" />
+	sozi:title="Masson's trichrome 20x" />
 <sozi:frame
-	id="15"
-	sozi:sequence="15"
+	id="14"
+	sozi:sequence="14"
 	sozi:refid="Obj-40x-1"
 	sozi:title="物鏡 40x (1)" />
 <sozi:frame
-	id="16"
-	sozi:sequence="16"
+	id="15"
+	sozi:sequence="15"
 	sozi:refid="Obj-40x-2"
 	sozi:title="物鏡 40x (2)" />
 <sozi:frame
-	id="17"
+	id="16"
 	sozi:hide="false"
-	sozi:sequence="17"
+	sozi:sequence="16"
 	sozi:refid="HE-40x-1"
 	sozi:title="H&amp;E 40x (1)" />
 <sozi:frame
-	id="18"
-	sozi:sequence="18"
+	id="17"
+	sozi:sequence="17"
 	sozi:hide="false"
 	sozi:refid="HE-40x-2"
 	sozi:title="H&amp;E 40x (2)" />
 <sozi:frame
-	id="19"
-	sozi:sequence="19"
+	id="18"
+	sozi:sequence="18"
 	sozi:hide="false"
 	sozi:refid="HE-40x-3"
 	sozi:title="H&amp;E 40x (3)" />
 <sozi:frame
+	id="19"
+	sozi:sequence="19"
+	sozi:hide="false"
+	sozi:refid="Tri-40x-1"
+	sozi:title="Masson's trichrome 40x (1)" />
+<sozi:frame
 	id="20"
 	sozi:sequence="20"
 	sozi:hide="false"
-	sozi:refid="Tri-40x-1"
-	sozi:title="Masson’s trichrome 40x (1)" />
+	sozi:refid="Tri-40x-2"
+	sozi:title="Masson's trichrome 40x (2)" />
 <sozi:frame
 	id="21"
 	sozi:sequence="21"
 	sozi:hide="false"
-	sozi:refid="Tri-40x-2"
-	sozi:title="Masson’s trichrome 40x (2)" />
+	sozi:refid="Tri-40x-3"
+	sozi:title="Masson's trichrome 40x (3)" />
 <sozi:frame
 	id="22"
 	sozi:sequence="22"
-	sozi:hide="false"
-	sozi:refid="Tri-40x-3"
-	sozi:title="Masson’s trichrome 40x (3)" />
-<sozi:frame
-	id="23"
-	sozi:sequence="23"
 	sozi:refid="panorama"
 	sozi:title="全景" />
 <script xlink:href="sozi.js" />
