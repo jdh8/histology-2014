@@ -23,7 +23,12 @@
 > 人類的腮腺完全由漿液性腺泡 (serous acini)
 > 及其管道所組成。但整個腺體中，常有多量的脂肪細胞 (adipocytes) 散佈於其間。
 >
-> <div style="text-align:right"><cite>《Ross 組織學》第 6 版圖板 52〈腮腺〉</cite></div>
+> <cite>——《Ross 組織學》第 6 版圖板 52〈腮腺〉</cite>
+
+> 顏面神經 (facial nerve, 第 VII 對顱神經) 穿過腮腺；在一般 H&E
+> 染色切片中，通常可以<ins>看到</ins>此神經粗大的橫切面，有助於辨認腮腺。
+>
+> <cite>——《Ross 組織學》第 6 版 p.551〈腮腺〉</cite>
 
 授權
 ----
