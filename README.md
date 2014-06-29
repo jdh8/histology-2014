@@ -1,12 +1,5 @@
 組織型態學期末報告
 ==================
-<style scoped>
-blockquote > cite {
-	display: block;
-	text-align: right;
-}
-</style>
-
 老生常談
 --------
 切片的目的在於讓生物組織適合在顯微鏡下觀察。光學顯微鏡需要的是能過濾光線的樣本，因此我們需要把它切到薄到能透光，再染色讓不同的胞器呈現不同的顏色。
@@ -29,7 +22,7 @@ blockquote > cite {
 ----
 > 人類的腮腺完全由漿液性腺泡 (serous acini)
 > 及其管道所組成。但整個腺體中，常有多量的脂肪細胞 (adipocytes) 散佈於其間。
-> <cite>《Ross 組織學》第 6 版圖板 52〈腮腺〉</cite>
+> <cite style="display:block;text-align:right">《Ross 組織學》第 6 版圖板 52〈腮腺〉</cite>
 
 授權
 ----
